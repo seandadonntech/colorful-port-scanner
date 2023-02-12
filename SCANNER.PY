@@ -10,5 +10,6 @@ for port in range(1,1024):
     else:
         print(Fore.GREEN + "Port {} is open".format(port))
     sock.close()
+    #more things would be added soon
     
    
